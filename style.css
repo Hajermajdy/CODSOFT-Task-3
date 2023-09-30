@@ -20,18 +20,24 @@
 .body .inputdata{
     grid-column: 1/5;
     grid-row: 1/5;
+    color: rgb(208, 208, 208);
+}
+.body .inputdata{
+    background-color: rgb(208, 208, 208);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 90%; 
 }
 .body .inputdata input{
     position: absolute;
     width: 100%;
     height: 30%; 
     border: none;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    background-color: rgb(208, 208, 208);
+    background-color: transparent;
     color: white;
     font-size: 25px;
     outline: none;
+    padding: 10px;
 }
 
 .body button{
@@ -76,17 +82,17 @@
         left: 35px;
     }
 }
-@media  (min-width: 530px) and (max-width:900px) {
+@media  (min-width: 530px) and (max-width:920px) {
     .body{
         width: 80%;
         top: 15%;
         left: 10%;
     }
 }
-@media  (min-width: 910px) and (max-width:1300px) {
+@media  (min-width: 920px) and (max-width:1300px) {
     .body{
-        width: 70%;
+        width: 40%;
         top: 15%;
-        left: 15%;
+        left: 30%;
     }
 }
