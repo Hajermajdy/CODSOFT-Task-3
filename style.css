@@ -57,8 +57,12 @@
 
 .body .equal{
     grid-column: 4/5;
-    grid-row: 8/10;
+    grid-row: 9/10;
     border-bottom-right-radius: 20px;
+}
+.body .mod{
+    grid-column: 4/5;
+    grid-row: 8/9;
 }
 
 .body .zero{
